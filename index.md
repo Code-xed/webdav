@@ -1,4 +1,5 @@
-  WEBDAV  src="../static/javascript/index.js"
+  WEBDAV  src="static/javascript/index.js"
+  WEBDAV src="static/css/style.css"
 
 WEBDAV SERVER
 =============
