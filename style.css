@@ -1,0 +1,138 @@
+html, body {
+   min-height: 100%;
+				margin: 0;
+				padding: 0;
+}
+body {
+background-image: linear-gradient(to right, #404eff, #ff95fc);
+}
+.header {
+height:90px;
+display: block; background-image:linear-gradient(to right, #404eff, #ff95fc);
+  padding: 10px 16px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-text: center;
+  } 
+.container {
+				margin-top:150px;
+}
+.footer {
+ margin-top: 300px;
+ bottom: 0;
+ left:0;
+ right: 0;
+ position: static;
+ height: 100px;
+ background-color:#000000;
+ text-align: center;
+ color:#ffffff;
+}
+
+h2, h3, p {
+				text-align: center;
+}
+
+h1#site--banner {
+border-width:30px;
+border-color:#000000;
+border-type:dotted;
+text-align:center; border-radius:3px;
+color:#ffffff;
+}
+i {
+				color: #fffc95;
+}
+
+#submit {
+margin-left: 140px;
+height: 30px;
+				background-color:#1d7e00;
+} a:link#site--browse,a:link#site--upload {
+  margin-left: 25px;
+  border-radius:10px;
+ background-color:#caaaff;
+  color: Black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:visited#site--browse {
+				color: Black;
+}
+a:visited#site--upload {
+				color: Black;
+}
+main {
+				border-size: 10px;
+}
+input {
+  margin-left:50;
+  margin-right:50;
+border-radius: 5px;
+  background-color:#caaaf;
+  margin: 20px;
+  color: Black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+input#choosefile {
+				border-radius: 10px;
+				border-color:#b5ffaa;
+				border-size: 30px;
+  background-color: #caaaff;
+  color: Black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+i#CR {
+				color:#bebebe;
+}
+h3#device {
+ position: fixed;
+ top:0;
+ left:0;
+ right:0;
+	background-color:black;
+}
+
+#browse-icon, #upload-icon {
+				max-width:24px;
+				padding-right: 10px;
+}
+ 
+/* [BODY] mapage-body {
+  /* This is necessary */
+  /* Or the top part of contents will be covered under the header */
+  mar45-top: 150px; 
+  padding: 5px;
+}
+
+/* [FOOTER] */
+#page-foot {
+  padding: 10px;
+  background: #f2fff0;
+}
+ 
+/* [DOES NOT MATTER] */
+html, body {
+  font-family: arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+h4#device {
+    color:#50b52d;
+				text-align: right;
+				padding-right: 20px;
+}
+p, #site--footer {
+				color:#bebebe;
+}
