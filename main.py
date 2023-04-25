@@ -6,7 +6,7 @@ from flask_autoindex import AutoIndex
 app = Flask(__name__)
 
 app.config["Uploads"] = "/"
-files_index = AutoIndex(app, "/storage/emulated/0/", add_url_rules=False)
+files_index = AutoIndex(app, "/home/bot/", add_url_rules=False)
 
 # Custom indexing
 @app.route('/files')
