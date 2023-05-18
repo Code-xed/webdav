@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+
+{% block title %}Upload {% endblock %}
+
+{% block content %}
+    <!-- PARAGRAPH SECTION -->
+    <div class="container text-bold" style="background-color: #ffdc003a; color: #2d2e00a0;">
+        <p>Choose A File To Upload To The Backend Server.</p>
+        <p>These files can be accessed from the Browse option!</p>
+    </div>
+    
+    <!-- Uploader -->
+    <div class="upcont p-4 bg-light">
+    <form class="form-inline my-2 my-lg-0" action="/uploader" method="POST" enctype="multipart/form-data">
+      <input class="form-control-file form-control-file-sm-2" name="file" id="choosefile" type="file" />
+      <button type="submit" id="submit" class="btn btn-outline-warning my-4 my-lg-0"><h5><i class="fa fa-upload"></i>Upload</h5></button>
+     </form>
+     </div>
+     
+{% endblock %}
