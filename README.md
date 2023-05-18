@@ -5,7 +5,7 @@
 
 *clone this repo*
 
-``` 
+``` bash
 cd webdav
 pip3 install -U requirements.txt
 sudo apt install gunicorn 
