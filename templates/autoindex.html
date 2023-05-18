@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+{% from "./macros.html" import entry, thead, breadcrumb
+   with context %}
+{% block title %} {{ curdir.path }} {% endblock %}
+
+    {% block content %}
+    {% block table %}
+    <!-- TABLE -->
+    <div class="table-responsive-xl">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Size</th>
+            <th scope="col">Last Modified</th>
+          </tr>
+          {% if not curdir.is_root() %}
+          <tr>
+            <td class="d-flex flex-row" colspan="3">
+              {{ breadcrumb(curdir) }}
+            </td>
+          </tr>
+          {% endif %}
+        </thead>
+        <tbody>
+          {% for ent in entries %}
+          {{ entry(ent) }}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endblock %}
+    {% endblock %}
